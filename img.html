@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>image</title>
+    <style>
+        img{
+            width=500px;
+            height: 200px;
+        }
+        .one
+        {
+            display: flex;
+            flex-wrap: wrap;
+            margin: 200px;
+            padding:  5px 10px;
+        }
+        .pic
+        {
+            height:10vh;
+            width: 20vw;
+            min-width: 30vw;
+            display: flex;
+            margin: auto;
+            font-size: medium;
+            align-items: center;
+            justify-content: space-around;
+
+        }
+        a{
+            position: relative;
+            text-decoration: none;
+            color: black;
+            font-weight: 200px;
+            padding: 0 20px;
+            display: flex;
+
+        }
+        .button{
+            display: contents;
+
+        }
+        .button:hover
+        {
+            background-color: aqua;
+            display: flex;
+            padding: 0 10px;
+            justify-content: space-between;
+            
+        }
+        .main img{
+            width: 15vw;
+            height: 10vh;
+        }
+    
+    </style>
+</head>
+<body>
+    
+    <h1>
+        Pictures using flex
+    </h1>
+    <nav>
+      <div class="main"> 
+        <img src="./cartoon network.jfif" alt="cartoon network">
+      </div>
+    <div class="pic">
+        <a href="#"> home</a>
+        <a href="#">pictures</a>
+        <a href="#">contact</a>
+        <a href="#">services</a>
+        
+    </div>
+    </nav>
+    <div class="button"> login/signup</div>
+    <div class=""one>
+    <img src="./forest.jpg" alt="forest">
+    <img src="./shinchan.jpg" alt="shinchan">
+    <img src="./bheem.jfif" alt="bheem">
+    <img src="./forest.jpg">
+    <img src="./shinchan.jpg" alt="shinchan">
+    </div>
+
+</body>
+</html>
