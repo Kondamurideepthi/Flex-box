@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+*{
+    background-color: lightgrey;
+}
+h2{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 5px solid goldenrod;
+}
+ .flex{
+    display: flex;
+    background-color: aquamarine;
+    width: 800px;
+    margin-left: 120px;
+}
+ 
+ .flex>DIV{
+    border:  10px solid pink;
+    background-color: goldenrod;
+    color: black;
+    padding: 20px;
+    margin: 30px;
+    font-size: larger; 
+ }
+
+ .flex1{
+    display: flex;
+    background-color: aqua;
+    width: 800px;
+    margin-left: 120px;
+    flex-direction: row-reverse;
+}
+ .flex1>DIV{
+    border:  10px solid pink;
+    background-color: goldenrod;
+    color: black;
+    padding: 20px;
+    margin: 30px;
+    font-size: larger; 
+    text-align: center;
+
+ }
+
+ .flex2{
+    display: flex;
+    background-color: aquamarine;
+    width: 800px;
+    margin-left: 120px;
+    flex-wrap: wrap;
+}
+ .flex2>DIV{
+    border:  10px solid pink;
+    background-color: goldenrod;
+    color: black;
+    padding: 20px;
+    margin: 30px;
+    font-size: larger; 
+    text-align: center;
+
+ }
+
+ .flex3{
+    display: flex;
+    background-color: aqua;
+    width: 600px;
+    margin-left: 120px;
+    flex-wrap: wrap-reverse;
+}
+ .flex3>DIV{
+    border:  10px solid pink;
+    background-color: goldenrod;
+    color: black;
+    padding: 20px;
+    margin: 30px;
+    font-size: larger; 
+    text-align: center;
+
+ }
+
+ .flex4{
+    display: flex;
+    background-color: aquamarine;
+    width: 600px;
+    margin-left: 120px;
+    flex-flow: row;
+   }
+ .flex4>DIV{
+    border:  10px solid pink;
+    background-color: goldenrod;
+    color: black;
+    padding: 20px;
+    margin: 30px;
+    font-size: larger; 
+    text-align: center;
+
+ }
+
+ .flex5{
+    display: flex;
+    background-color: aquamarine;
+   
+    justify-content: end; 
+    
+   }
+ .flex5>DIV{
+    border:  10px solid pink;
+    background-color: goldenrod;
+    color: black;
+    padding: 20px;
+    margin: 30px;
+    font-size: larger; 
+    text-align: center;
+
+ }
+
+ .flex6{
+    display: flex;
+    background-color: aquamarine;
+   height: 200px;
+   flex-wrap: wrap;
+   font-size: 20px;
+    overflow: scroll;
+    align-items:flex; 
+   }
+ .flex6>DIV{
+    border:  10px solid pink;
+    background-color: goldenrod;
+    color: black;
+    padding: 20px;
+    margin: 30px;
+    font-size: larger; 
+    text-align: center;
+
+ }
+</style>
+</head>
+<body>
+<H2>FLEX BOX</H2>
+<div class="flex">
+    <div>h</div>
+    <div>e</div>
+    <div>l</div>
+    <div>l</div>
+    <div>o</div>
+    
+    
+</div>
+
+<H2>flex-direction</H2>
+<div class="flex1">
+    <div>h</div>
+    <div>e</div>
+    <div>l</div>
+    <div>l</div>
+    <div>o</div>
+
+    
+</div>
+
+<H2>flex-wrap</H2>
+<div class="flex2">
+    <div>h</div>
+    <div>e</div>
+    <div>l</div>
+    <div>l</div>
+    <div>h</div>
+    <div>t</div>
+    <div>m</div>
+    <div>l</div>
+    
+    
+</div>
+
+<H2>flex-wrap</H2>
+<div class="flex3">
+    <div>h</div>
+    <div>e</div>
+    <div>l</div>
+    <div>l</div>
+    <div>o</div>
+    <div>h</div>
+    <div>t</div>
+    <div>m</div>
+    <div>l</div>
+
+    
+</div>
+
+<H2>flex-Flow</H2>    
+<div class="flex4">
+    <div>h</div>
+    <div>e</div>
+    <div>l</div>
+    <div>l</div>
+    <div>o</div>
+    <div>h</div>
+    <div>t</div>
+    <div>m</div>
+    <div>l</div>
+    
+</div>
+
+<H2>justify content</H2>   
+<div class="flex5">
+   
+    <div>H</div>
+    <div>E</div>
+    <div>L</div>
+    <div>L</div>
+    <DIV>O</DIV>
+    
+</div>
+
+<H2>align-items</H2>   
+<div class="flex6">
+    <div>H</div>
+    <div>E</div>
+    <div>L</div>
+    <div>L</div>
+    <div>O</div>
+    <div>H</div>
+    <div>T</div>
+    <div>M</div>
+    <div>L</div>
+    
+</div>
+
+</body>
+</html>
